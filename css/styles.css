@@ -6,11 +6,21 @@ body{
 }
 
 /*** Header ****/
+.navbar-header {
+	background-color: #8e8e8e;
+	border-radius: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/**border: 2px solid #000;**/
+}
 
 #header-nav {
 	background-color: #8e8e8e;
 	border-radius: 0;
 	border: 3px solid #000;
+}
+#collapsable-nav {
+
 }
 .navbar-brand {
 	padding-top: 25px;
@@ -42,7 +52,9 @@ body{
 #nav-list {
 	background-color: #fff;
 	text-align: center;
-	/**border: 2px solid #fff;**/
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1.1em
 }
 
 
@@ -61,4 +73,31 @@ h3 {
 }
 p {
 	color: #000;
+}
+
+hr {
+	border-color: #000;
+	width: 98%;
+}
+
+
+/*** extra small devcies Only ***/
+@media (max-width: 767px) {
+	#header-nav {
+		background-color: #fff;
+		border: none;
+		scroll-margin-top: -15px;
+	}
+	
+	#collapsable-nav {
+		border: 3px solid #000;
+	}
+	.navbar-header {
+		border: 2px solid #000;
+	}
+	#home-sections {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
 }
