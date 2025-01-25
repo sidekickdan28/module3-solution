@@ -18,6 +18,8 @@ body{
 	background-color: #8e8e8e;
 	border-radius: 0;
 	border: 3px solid #000;
+	border-left-width: 1px;
+	border-right-width: 1px;
 }
 #collapsable-nav {
 
@@ -94,6 +96,8 @@ hr {
 	}
 	.navbar-header {
 		border: 2px solid #000;
+		border-left-width: 1px;
+		border-right-width: 1px;
 	}
 	#home-sections {
 		margin-left: 10%;
