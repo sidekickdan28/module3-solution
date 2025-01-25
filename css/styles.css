@@ -1,0 +1,36 @@
+body{
+	font-size: 16px
+	color: #000;
+	background-color: #fff;
+	font-family: "Oxygen",sans-serif;
+}
+
+/*** Header ****/
+
+#header-nav {
+	background-color: #8e8e8e;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 { /** Brand Name **/ 
+	color: #000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: -10px;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+	line-height: .75;
+}
+
+.navbar-brand:hover {
+	text-decoration: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #000;
+}
